@@ -1,7 +1,7 @@
 private Snowflake[] snowflakes = new Snowflake[10];
 private boolean pause = false;
 public void setup(){
-  size(2000, 1000, P3D);
+  size(1000, 500, P3D);
   for(int i = 0; i < snowflakes.length; i++){
     snowflakes[i] = new Snowflake(false);
   }
